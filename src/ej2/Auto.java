@@ -21,6 +21,7 @@ public class Auto extends Vehiculo{
     
     @Override
     public String mostrarInfo(){
+        System.out.println("Cambio para mi segundo commit");
         return "La marca es "+super.getMarca()+", el color es "+super.getColor()+" y el tipo de combustible es "+this.getTipoCombustible();
     }
 }
